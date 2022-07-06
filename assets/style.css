@@ -82,13 +82,15 @@ a{
   margin-left: 10%;
 }
 
-.helping{
+#creating{
+  font-size: 60px;
+  font-weight: 400;
   
-  margin-right:40px;
-  margin-bottom: 40px;
 }
-h2{
+ .two h2{
   color: #2549D3;
+  font-size: 100px;
+  text-align: left;
   
 }
 
@@ -99,8 +101,17 @@ h2{
 main{
   margin-top: 0%;
 }
-.img1 {
+#img1{
   float: right;
-  padding-bottom: 10px;
-  margin-bottom: 40px;
+  margin-top: 82px;
+  
+}
+.location{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+#learn{
+  margin-top: 100px;
 }
