@@ -1,19 +1,63 @@
 body{
   background-color: #FAFAFA;
   /*margin: 40px 70px 20px 70px; */
-  width: 100%;
+  font-family: "Space Grotesk" sans-serif;
 }
 header{
-  padding: 3%;
-  width: 100%;
-
+  padding: 0px 100px 0px 100px;
+}
+.helping{
+  display: flex;
 }
 .topnav{
-  width: 90%;
-}
-.div1{
-  float: right;
-  width: 50%;
+  display:flex;
+  flex-direction: row;
+  font-size: 70px;
+  border-bottom: 2px solid black;
+  margin-bottom: 20px;
+  text-align: start;
+  justify-content: space-between;
+  padding-bottom: 1%;
 }
 /*Primary Colors: #2549D3, #0F298B, #FAFAFA
 Font Styles: Space Grotesk, Oleo Script*/
+.vallie{
+  font-family: "Courgette", cursive;
+  font-weight: 600;
+  
+  
+
+  
+  /*font-size: 200%; */
+  
+}
+.home{
+  color:#2549D3 ;
+  margin-right: 40px;
+  
+  /*font-size: 150%;*/
+}
+.rent{
+  
+  margin-right: 40px;
+  
+}
+.topnav:hover{
+  background-color: aqua;
+}
+a{
+  background-color: #FAFAFA;
+  text-decoration: solid;
+}
+.land{
+  margin-right: 40px;
+  
+}
+.agent{
+  margin-right: 40px;
+ 
+}
+.contact{
+  margin-right: 40px;
+ 
+}
