@@ -111,7 +111,14 @@ main{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+ 
 }
 #learn{
   margin-top: 100px;
+}
+h2{
+  color:#0F298B ;
+}
+.middle{
+  text-align: center;
 }
