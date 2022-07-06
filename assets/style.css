@@ -1,29 +1,42 @@
 body{
   background-color: #FAFAFA;
   /*margin: 40px 70px 20px 70px; */
-  font-family: "Space Grotesk" sans-serif;
+  font-family: 'Space Grotesk';
 }
 header{
   padding: 0px 100px 0px 100px;
+  border-bottom:  ridge 1px rgb(71, 68, 68);
+  
+  
+  overflow: auto;
 }
-.helping{
-  display: flex;
-}
+
+
 .topnav{
   display:flex;
   flex-direction: row;
-  font-size: 70px;
-  border-bottom: 2px solid black;
+  font-size: 40px;
   margin-bottom: 20px;
   text-align: start;
   justify-content: space-between;
   padding-bottom: 1%;
+  margin-right: initial;
+  
+}
+.two{
+  display: block;
+  justify-content: space-between;
+  flex-direction: row;
+  padding-top: 10px;
+
 }
 /*Primary Colors: #2549D3, #0F298B, #FAFAFA
 Font Styles: Space Grotesk, Oleo Script*/
 .vallie{
   font-family: "Courgette", cursive;
   font-weight: 600;
+  margin-right: 10%;
+  font-family: 'Oreo Script';
   
   
 
@@ -40,17 +53,21 @@ Font Styles: Space Grotesk, Oleo Script*/
 .rent{
   
   margin-right: 40px;
+  color: black;
   
 }
-.topnav:hover{
+ #land:hover{
   background-color: aqua;
-}
+  padding: 10%;
+} 
 a{
-  background-color: #FAFAFA;
+ 
   text-decoration: solid;
+  color: black;
 }
-.land{
+.land a{
   margin-right: 40px;
+  color: #2549D3;
   
 }
 .agent{
@@ -60,4 +77,30 @@ a{
 .contact{
   margin-right: 40px;
  
+}
+.get{
+  margin-left: 10%;
+}
+
+.helping{
+  
+  margin-right:40px;
+  margin-bottom: 40px;
+}
+h2{
+  color: #2549D3;
+  
+}
+
+.location{
+  display: block;
+  clear: right;
+}
+main{
+  margin-top: 0%;
+}
+.img1 {
+  float: right;
+  padding-bottom: 10px;
+  margin-bottom: 40px;
 }
