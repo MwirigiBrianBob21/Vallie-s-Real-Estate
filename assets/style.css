@@ -71,8 +71,13 @@ a{
 }
 .land a{
   margin-right: 40px;  
-  color: #2549D3;
+.get a{
   
+  background-color: #2549D3;
+  color: whitesmoke;
+  margin-right: 5%;
+  margin-left: 2%;
+  font-size-adjust: 20px;
 }
 .agent{
   margin-right: 40px;
