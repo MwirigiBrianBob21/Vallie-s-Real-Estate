@@ -12,7 +12,9 @@ header{
   overflow: auto;
 }
 
-
+#home{
+  color: #2549D3;
+}
 .topnav{
   display:flex;
   flex-direction: row;
