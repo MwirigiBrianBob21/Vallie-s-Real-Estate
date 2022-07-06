@@ -1,6 +1,7 @@
 body{
   background-color: #FAFAFA;
-  margin: 40px 70px 20px 70px;
+  /*margin: 40px 70px 20px 70px; */
+  width: 100%;
 }
 header{
   padding: 3%;
@@ -9,6 +10,10 @@ header{
 }
 .topnav{
   width: 90%;
+}
+.div1{
+  float: right;
+  width: 50%;
 }
 /*Primary Colors: #2549D3, #0F298B, #FAFAFA
 Font Styles: Space Grotesk, Oleo Script*/
