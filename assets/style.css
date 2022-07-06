@@ -7,9 +7,9 @@ body{
 header{
   padding: 0px 100px 0px 100px;
   border-bottom:  ridge 1px rgb(71, 68, 68);
-  
-  
+   
   overflow: auto;
+  font
 }
 
 #home{
@@ -69,8 +69,13 @@ a{
   text-decoration: solid;
   color: black;
 }
+.home a{
+  color: #0F298B;
+}
 .land a{
-  margin-right: 40px;  
+  margin-right: 40px;
+  
+}
 .get a{
   
   background-color: #2549D3;
