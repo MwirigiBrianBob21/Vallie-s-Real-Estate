@@ -1,34 +1,14 @@
-/* Add a black background color to the top navigation */
-.topnav {
-    background-color: #FAFAFA;
-    width: 100%;
-    
-    
+body{
+  background-color: #FAFAFA;
+  margin: 40px 70px 20px 70px;
+}
+header{
+  padding: 3%;
+  width: 100%;
 
-  }
-  
-  
-  .topnav a {
-    color: #0F298B ;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 60px;
-    margin:auto;
-    border-color: antiquewhite;
-
-  }
-
-  
-  /* Change the color of links on hover */
-  .topnav a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-  
-
-  .topnav a.active {
-    background-color: #04AA6D;
-    color: white;
-  }
-  
+}
+.topnav{
+  width: 90%;
+}
+/*Primary Colors: #2549D3, #0F298B, #FAFAFA
+Font Styles: Space Grotesk, Oleo Script*/
