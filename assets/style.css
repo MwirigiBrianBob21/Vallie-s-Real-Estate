@@ -9,7 +9,7 @@ header{
   border-bottom:  ridge 1px rgb(71, 68, 68);
    
   overflow: auto;
-  font
+  fon
 }
 
 #home{
@@ -234,4 +234,13 @@ footer{
   text-align: left;
   justify-content: space-around;
   color: whitesmoke;
+}
+button{
+  color: white;
+  background-color: #2549D3;
+  height: 100px;
+  width: 200px;
+  font-size: 150%;
+  border-radius: 20px;
+  font-weight: 800;
 }
