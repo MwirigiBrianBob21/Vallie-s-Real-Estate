@@ -2,14 +2,17 @@ body{
   background-color: #FAFAFA;
   /*margin: 40px 70px 20px 70px; */
   font-family: 'Space Grotesk';
-  margin-left: 7%;
 }
 header{
   padding: 0px 100px 0px 100px;
   border-bottom:  ridge 1px rgb(71, 68, 68);
    
   overflow: auto;
-  fon
+
+}
+main{
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 #home{
@@ -179,29 +182,20 @@ h2{
   margin-top: 40px;
   text-align: center;
 }
-.duplex{
+#duplex{
   display: flex;
   flex-direction:row;
   width:100%;
-  overflow:scroll;
-}
-.palace{
-  margin: 50px;
-  padding-bottom: 20px;
-  background-color: white;
+  /*overflow:scroll; */
+  justify-content: space-evenly;
   
 }
-.ivy{
-  margin: 50px;
-  padding-bottom: 20px;
-  background-color: white;
-}
-.rexona{
-  margin: 50px;
-  padding-bottom: 20px;
-  background-color: white;
-  
-  
+
+.house{
+  width: 27%;
+  margin-left: 1%;
+  margin-right: 1%;
+
 }
 
 span{
@@ -235,12 +229,19 @@ footer{
   justify-content: space-around;
   color: whitesmoke;
 }
+
+#buttons{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
 button{
+  height: 120px;
+  width: 170px;
   color: white;
+  border-radius: 50px;
   background-color: #2549D3;
-  height: 100px;
-  width: 200px;
-  font-size: 150%;
-  border-radius: 20px;
   font-weight: 800;
+  font-size: 150%;
 }
